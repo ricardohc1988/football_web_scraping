@@ -23,7 +23,7 @@ pipenv install
 
 ## Getting Started
 
-#Check Available Leagues: Before diving into specific statistics, you can see which football leagues are available:
+# Check Available Leagues: Before diving into specific statistics, you can see which football leagues are available:
 
 ```python
 from football_scraper import FootballScraper
@@ -31,7 +31,7 @@ scraper = FootballScraper()
 available_leagues = scraper.get_available_leagues()
 ```
 
-#Retrieve League Statistics: Once you've identified the league of interest from the available options, you can retrieve statistics for that league:
+# Retrieve League Statistics: Once you've identified the league of interest from the available options, you can retrieve statistics for that league:
 
 ```
 league_name = 'Premier League'  # Replace with the desired league name
