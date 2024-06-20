@@ -19,19 +19,24 @@ To install the necessary dependencies, use Pipenv:
 git clone https://github.com/yourusername/football-scraper.git
 cd football-scraper
 pipenv install
+```
 
 ## Getting Started
 
--Check Available Leagues: Before diving into specific statistics, you can see which football leagues are available:
+#Check Available Leagues: Before diving into specific statistics, you can see which football leagues are available:
 
+```python
 from football_scraper import FootballScraper
 scraper = FootballScraper()
 available_leagues = scraper.get_available_leagues()
+```
 
--Retrieve League Statistics: Once you've identified the league of interest from the available options, you can retrieve statistics for that league:
+#Retrieve League Statistics: Once you've identified the league of interest from the available options, you can retrieve statistics for that league:
 
+```
 league_name = 'Premier League'  # Replace with the desired league name
 league_stats = FootballScraper.LeagueStats(league_name)
+```
 
 # Example: Retrieve statistics for the current season
 df_league_stats = league_stats.get_league_stats()
