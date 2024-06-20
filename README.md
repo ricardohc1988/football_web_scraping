@@ -46,11 +46,15 @@ df_league_stats = league_stats.get_league_stats()
 **Explore Team and Player Statistics: Use similar methods to explore team and player statistics:**
 
 **Example: Retrieve team statistics**
+```
 team_name = 'Manchester United'  # Replace with the desired team name
 team_stats = FootballScraper.TeamStats(team_name)
 df_team_stats = team_stats.get_team_stats()
+```
 
 **Example: Retrieve player statistics**
+```
 player_name = 'Lionel Messi'  # Replace with the desired player name
 player_stats = FootballScraper.PlayerStats(player_name)
 df_player_stats = player_stats.get_player_stats()
+```
