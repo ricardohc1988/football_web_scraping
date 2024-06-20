@@ -1,0 +1,21 @@
+leagues_id = {
+    'Austrian Bundesliga': '56',
+    'Belgian Pro League': '37',
+    'Bundesliga': '20',
+    'Czech First League': '66',
+    'Ekstraklasa': '36',
+    'Eredivisie': '23',
+    'Hrvatska NL': '63',
+    'La Liga': '12',
+    'Ligue 1': '13',
+    'NB-I': '46',
+    'Premier League': '9',
+    'Primeira Liga': '32',
+    'Russian Premier League': '30',
+    'Serie A': '11',
+    'Super Lig': '26',
+    'Superliga': '50',
+    'Super League Greece': '27',
+    'Swiss Super League': '57',
+}
+
