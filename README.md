@@ -35,7 +35,7 @@ available_leagues = scraper.get_available_leagues()
 
 ```
 league_name = 'Premier League'  # Replace with the desired league name
-league_stats = FootballScraper.LeagueStats(league_name)
+league_stats = scraper.LeagueStats(league_name)
 ```
 
 **Example: Retrieve statistics for the current season**
@@ -47,14 +47,16 @@ df_league_stats = league_stats.get_league_stats()
 
 **Example: Retrieve team statistics**
 ```
+scraper.get_teams_ids('Premier League') #Run this line before retrieving team statistics. Replace with the desired league name
 team_name = 'Manchester United'  # Replace with the desired team name
-team_stats = FootballScraper.TeamStats(team_name)
+team_stats = scraper.TeamStats(team_name)
 df_team_stats = team_stats.get_team_stats()
 ```
 
 **Example: Retrieve player statistics**
 ```
-player_name = 'Lionel Messi'  # Replace with the desired player name
-player_stats = FootballScraper.PlayerStats(player_name)
+scraper.get_players_ids('Manchester City') #Run this line before retrieving player statistics. Replace with the desired team name
+player_name = 'Erling Haaland'  # Replace with the desired player name
+player_stats = scraper.PlayerStats(player_name)
 df_player_stats = player_stats.get_player_stats()
 ```
